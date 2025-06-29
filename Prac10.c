@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#define N 4       // número de objetos
-#define CAP 4     // capacidad máxima de la mochila (lb)
+#define N 4      
+#define CAP 4     
 
 int main(void) {
     // Definición de los objetos
@@ -52,15 +52,6 @@ int main(void) {
         int idx = seleccion[i];
         printf("  - %s (peso %dlb, valor $%d)\n",
                names[idx], peso[idx], valor[idx]);
-    }
-
-    // (Opcional) Mostrar tabla DP
-    printf("\nTabla DP (filas = objetos 0..%d, columnas = peso 0..%d):\n", N, CAP);
-    for (int i = 0; i <= N; i++) {
-        for (int j = 0; j <= CAP; j++) {
-            printf("%5d", dp[i][j]);
-        }
-        printf("\n");
     }
 
     return 0;

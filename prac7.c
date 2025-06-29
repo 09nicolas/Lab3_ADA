@@ -1,14 +1,3 @@
-/*
- * Huffman Coding en C
- * 1) Carga un archivo de texto con al menos 50 palabras.
- * 2) Genera el diccionario de frecuencias de cada símbolo (byte) del archivo.
- * 3) Construye el árbol de Huffman.
- * 4) Genera los códigos de Huffman.
- * 5) Comprime el contenido y calcula tasa de compresión.
- * 6) Almacena el archivo codificado en "codificado.txt".
- * 7) Carga "codificado.txt" y decodifica usando el árbol, guardando en "decodificado.txt".
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
