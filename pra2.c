@@ -1,6 +1,3 @@
-// divide.c
-// Divide two 32-bit signed integers without using *, /, or % operators.
-// Truncate toward zero and handle overflow.
 
 #include <stdio.h>
 #include <limits.h>
